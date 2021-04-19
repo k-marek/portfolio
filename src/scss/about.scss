@@ -1,0 +1,20 @@
+section.about {
+  display: flex;
+  justify-content: center;
+  height: 55vh;
+  width: 100%;
+  background-color: $light-brown;
+  div.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    padding-top: 13vw;
+    h2 {
+      font-family: $font-decor;
+      font-size: 3em;
+      font-weight: lighter;
+    }
+  }
+}

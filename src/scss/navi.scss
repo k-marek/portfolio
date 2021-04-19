@@ -1,0 +1,27 @@
+section.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65px;
+  width: 100%;
+  background-color: $ivory;
+  opacity: 0.6;
+  position: fixed;
+  z-index: 1;
+  div.navi-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    nav {
+      ul a {
+        font-size: 1.2em;
+        padding: 40px;
+        text-transform: uppercase;
+      }
+      ul a:hover {
+        cursor: pointer;
+        color: $redwood;
+      }
+    }
+  }
+}
