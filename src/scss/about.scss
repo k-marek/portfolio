@@ -1,7 +1,7 @@
 section.about {
   display: flex;
   justify-content: center;
-  height: 55vh;
+  height: auto;
   width: 100%;
   background-color: $light-brown;
   div.about-container {
@@ -10,11 +10,15 @@ section.about {
     justify-content: center;
     align-items: center;
     width: 60%;
-    padding-top: 13vw;
+    padding-bottom: 30px;
     h2 {
       font-family: $font-decor;
       font-size: 3em;
       font-weight: lighter;
+      padding-top: 20px;
+    }
+    p {
+      text-align: center;
     }
   }
 }

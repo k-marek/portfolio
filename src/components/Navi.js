@@ -34,6 +34,9 @@ const Navi = () => {
                         <LinkScroll to="exp" smooth={true}>
                             Experience
                         </LinkScroll>
+                        <LinkScroll to="portfolio" smooth={true}>
+                            Portfolio
+                        </LinkScroll>
                         <LinkScroll to="contact" smooth={true}>
                             Contact
                         </LinkScroll>

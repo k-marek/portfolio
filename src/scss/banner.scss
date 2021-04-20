@@ -1,0 +1,40 @@
+section.banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 65vh;
+  width: 100vw;
+  div.pic {
+    height: 75%;
+    width: 30vw;
+    background-image: url("./../assets/pic.JPG");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  div.pic:before {
+    content: "";
+    background-image: url("./../assets/home-background2.jpg");
+    min-height: 300px;
+    max-height: 650px;
+    height: 100%;
+    width: 50vw;
+    position: absolute;
+    top: 130px;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    z-index: -1;
+  }
+}
+section.banner-container:after {
+  content: "";
+  height: 30vh;
+  width: 50vw;
+  position: absolute;
+  background-color: $light-brown;
+  z-index: -2;
+  top: 65%;
+  left: 50%;
+}

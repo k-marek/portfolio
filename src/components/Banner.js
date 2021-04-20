@@ -17,16 +17,16 @@ import {
   scroller,
 } from "react-scroll";
 
-const Header = () => {
+const Banner = () => {
   return (
     <>
       <Router>
-        <header>
-            <h1>Katarzyna Marek</h1>
-        </header>
+        <section className="banner-container">
+            <div className="pic"></div>   
+        </section>
       </Router>
     </>
   );
 };
 
-export default Header;
+export default Banner;
