@@ -2,25 +2,41 @@ section.menu {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 35px;
-  width: 100%;
-  background-color: $ivory;
-  opacity: 0.6;
+  height: 100px;
+  width: 100vw;
   position: fixed;
-  z-index: 1;
+  background-color: transparent;
+  opacity: 0.8;
+  z-index: +1;
   div.navi-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    width: 100%;
     nav {
-      ul a {
-        font-size: 0.7em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50px;
+      width: 100%;
+      padding-left: 27%;
+      ul a,
+      a:visited {
+        font-family: $font-base;
+        font-size: 1.1em;
         padding: 0 40px;
-        text-transform: uppercase;
+        color: $text;
+        font-weight: 300;
+        text-transform: lowercase;
       }
       ul a:hover {
         cursor: pointer;
-        color: $redwood;
+        transition: 0.5s;
+        color: $alt2;
+      }
+      ul a:hover span {
+        text-shadow: -3px -3px $alt;
+        transition: 0.5s;
       }
     }
   }

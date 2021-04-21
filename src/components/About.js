@@ -16,16 +16,23 @@ import {
   scrollSpy,
   scroller,
 } from "react-scroll";
+import Navi from "./Navi";
 
 const About = () => {
   return (
     <>
       <Router>
-        <section className="about">
+     
+        <section className="banner">    
+          <div className="banner-background"></div>  
+          <div className="pic"></div>   
+          <div className="about">
             <div className="about-container">
-                <h2>Hi! I'm Kasia</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a orci tincidunt, tincidunt lectus vitae, facilisis urna. Suspendisse ultricies eu lacus aliquam placerat. Donec pharetra ultricies lacus, condimentum tempus orci imperdiet at. Proin eget felis a eros dictum tempor. Vivamus lobortis massa non turpis varius, nec viverra nibh dignissim. Sed in ante ac leo aliquam cursus quis in justo. Pellentesque sodales lacus mi. Morbi ac mauris sem. Etiam odio leo, gravida et velit in, fermentum blandit sem. Maecenas ultricies nisi sed ipsum dictum rutrum. Nullam non tortor rhoncus, vulputate neque eget, pellentesque ex. Duis sapien risus, varius nec nisi a, porttitor gravida sem. Aliquam porta dui id ipsum rhoncus malesuada. Curabitur varius urna non purus bibendum, a malesuada nulla ornare.</p>
+              <h2>Hello,</h2>
+              <h2>I'm <span><span>K</span>asia</span></h2>
+              <p>Junior Front-end Developer</p>
             </div>
+          </div>
         </section>
       </Router>
     </>

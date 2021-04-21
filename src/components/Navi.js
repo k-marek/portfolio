@@ -16,6 +16,9 @@ import {
   scrollSpy,
   scroller,
 } from "react-scroll";
+import Home from "./Home"
+import About from "./About";
+import Exp from "./Exp";
 
 const Navi = () => {
   return (
@@ -24,23 +27,21 @@ const Navi = () => {
           <section className="menu">
             <div className="navi-container">
                 <nav>
-                    <ul>
-                        <LinkScroll to="home" smooth={true}>
-                            Home
-                        </LinkScroll>
-                        <LinkScroll to="about" smooth={true}>
-                            About
-                        </LinkScroll>
-                        <LinkScroll to="exp" smooth={true}>
-                            Experience
-                        </LinkScroll>
-                        <LinkScroll to="portfolio" smooth={true}>
-                            Portfolio
-                        </LinkScroll>
-                        <LinkScroll to="contact" smooth={true}>
-                            Contact
-                        </LinkScroll>
-                    </ul>
+                <NavLink exact to="/">K<span>M</span></NavLink>
+                  <ul>
+                    <NavLink  to="/about">a<span>b</span>out</NavLink>
+                    <NavLink to="/experience">e<span>x</span>perience</NavLink>
+                    <NavLink  to="/portfolio">p<span>o</span>rtfolio</NavLink>
+                    <NavLink  to="/contact">c<span>o</span>ntact</NavLink>
+                    <Switch>
+                      <Route  path="/about">
+                        <About />
+                      </Route>
+                      <Route  path="/experience">
+                        <Exp />
+                      </Route>
+                    </Switch>
+                  </ul>                    
                 </nav>
             </div>
           </section>
@@ -51,3 +52,6 @@ const Navi = () => {
 };
 
 export default Navi;
+
+
+
