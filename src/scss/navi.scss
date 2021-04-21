@@ -13,13 +13,16 @@ section.menu {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+
     nav {
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
       align-items: center;
       height: 50px;
       width: 100%;
-      padding-left: 27%;
+      ul {
+        padding-right: 21%;
+      }
       ul a,
       a:visited {
         font-family: $font-base;
@@ -37,6 +40,16 @@ section.menu {
       ul a:hover span {
         text-shadow: -3px -3px $alt;
         transition: 0.5s;
+      }
+      a.navi-logo {
+        font-size: 1.8em;
+        color: $alt2;
+        text-shadow: -3px -3px $alt;
+        padding-left: 16%;
+      }
+      a.navi-logo:hover {
+        text-shadow: -5px -5px $alt;
+        transition: 0.45s;
       }
     }
   }
