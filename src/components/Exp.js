@@ -26,19 +26,24 @@ const Exp = () => {
             <h1>Experience</h1>
             <div className="exp-boxes">
               <div className="exp-box">
-                <h1>Lorem Ipsum</h1>
-                <h2>January 2020 - January 2021</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a orci tincidunt, tincidunt lectus vitae, facilisis urna. Suspendisse ultricies eu lacus aliquam placerat. Donec pharetra ultricies lacus, condimentum tempus orci imperdiet at. Proin eget felis a eros dictum tempor. Vivamus lobortis massa non turpis varius, nec viverra nibh dignissim. Sed in ante ac leo aliquam cursus quis in justo.</p>
+                <h1>Coders Lab</h1>
+                <h2>Jan 2020 - Sep 2020</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a orci tincidunt, tincidunt lectus vitae, facilisis urna. Suspendisse ultricies eu lacus aliquam placerat. Donec pharetra ultricies lacus, condimentum tempus orci imperdiet at.</p>
               </div>
-              <div className="exp-img"></div>
-            </div>
-            <div className="exp-boxes">
-              <div className="exp-box-container">
-                <div className="exp-box">
-                  <h1>Lorem Ipsum</h1>
-                  <h2>January 2020 - January 2021</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a orci tincidunt, tincidunt lectus vitae, facilisis urna. Suspendisse ultricies eu lacus aliquam placerat. Donec pharetra ultricies lacus, condimentum tempus orci imperdiet at. Proin eget felis a eros dictum tempor. Vivamus lobortis massa non turpis varius, nec viverra nibh dignissim. Sed in ante ac leo aliquam cursus quis in justo.</p>
-                </div>
+              <div className="exp-box">
+                <h1>Domiko</h1>
+                <h2>Jan 2019 - Dec 2020</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a orci tincidunt, tincidunt lectus vitae, facilisis urna. Suspendisse ultricies eu lacus aliquam placerat. Donec pharetra ultricies lacus, condimentum tempus orci imperdiet at.</p>
+              </div>
+              <div className="exp-box">
+                <h1>UPV</h1>
+                <h2>Sep 2017 - Jan 2018</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a orci tincidunt, tincidunt lectus vitae, facilisis urna. Suspendisse ultricies eu lacus aliquam placerat. Donec pharetra ultricies lacus, condimentum tempus orci imperdiet at.</p>
+              </div>
+              <div className="exp-box">
+                <h1>SUT</h1>
+                <h2>Oct 2012 - May 2018</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a orci tincidunt, tincidunt lectus vitae, facilisis urna. Suspendisse ultricies eu lacus aliquam placerat. Donec pharetra ultricies lacus, condimentum tempus orci imperdiet at.</p>
               </div>
             </div>
           </div>   

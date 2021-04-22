@@ -34,14 +34,14 @@ section.banner {
     left: 15%;
     z-index: -1;
   }
-  div.about {
+  div.hello {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100%;
     width: 70vw;
     padding-left: 20%;
-    div.about-container {
+    div.hello-container {
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -55,9 +55,7 @@ section.banner {
         color: black;
         span {
           color: $alt2;
-          span {
-            text-shadow: -9px -6px $alt;
-          }
+          text-shadow: -9px -6px $alt;
         }
       }
       p {

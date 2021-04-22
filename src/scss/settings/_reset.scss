@@ -24,3 +24,16 @@ ul {
   display: block;
   clear: both;
 }
+
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background: $background;
+}
+
+::-webkit-scrollbar-thumb {
+  border: 6px solid $background;
+  background: $alt2;
+}

@@ -24,8 +24,8 @@ const Banner = () => {
         <section className="banner">    
           <div className="banner-background"></div>  
           <div className="pic"></div>   
-          <div className="about">
-            <div className="about-container">
+          <div className="hello">
+            <div className="hello-container">
               <h2>Hello,</h2>
               <h2>I'm <span><span>K</span>asia</span></h2>
               <p>Junior Front-end Developer</p>

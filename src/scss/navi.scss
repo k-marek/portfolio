@@ -6,7 +6,7 @@ section.menu {
   width: 100vw;
   position: fixed;
   background-color: transparent;
-  opacity: 0.8;
+  opacity: 1;
   z-index: +1;
   div.navi-container {
     display: flex;
@@ -36,6 +36,7 @@ section.menu {
         cursor: pointer;
         transition: 0.5s;
         color: $alt2;
+        text-shadow: -3px -3px $alt;
       }
       ul a:hover span {
         text-shadow: -3px -3px $alt;
