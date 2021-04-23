@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import ReactDOM from "react-dom";
 import {
   HashRouter as Router,
@@ -19,12 +19,26 @@ import {
 import Navi from "./Navi";
 
 const About = () => {
+
+  const [offsetY, setOffsetY] = useState(0);
+  const handleScroll = () => setOffsetY(window.pageYOffset);
+  
+  useEffect(()=>{
+    window.addEventListener("scroll", handleScroll);
+  return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+
   return (
     <>
       <Router>
         <section className="about">
           <div className="about-headline">
-            <h2>A few words</h2>
+            <h2
+            style={{ 
+              transform: `translateX(${-offsetY*0.5}px)`
+              }} smooth={true}
+            >A few words</h2>
           </div>      
           <div className="about-content">
             <p><div className="about-pic"></div>My name is Katarzyna Marek, currently living in Gliwice, Poland. My goal is to work as a Javascript Front-end Developer. The adventure with programming begun over a year ago, when I took a curse of Javascript in Coders Lab. It included such technologies as HTML5, CSS, Javascript, RWD, ES6, Sass, Gulp, Github, Webpack, React JS. I found resolving the issues and watching the progress satisfying. I escpecially enjoy creating in React.</p>
