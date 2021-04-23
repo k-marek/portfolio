@@ -23,12 +23,14 @@ const Banner = () => {
       <Router>
         <section className="banner">    
           <div className="banner-background"></div>  
-          <div className="pic"></div>   
-          <div className="hello">
-            <div className="hello-container">
-              <h2>Hello,</h2>
-              <h2>I'm <span><span>K</span>asia</span></h2>
-              <p>Junior Front-end Developer</p>
+          <div className="banner-container">
+            <div className="pic"></div>   
+            <div className="hello">
+              <div className="hello-container">
+                <h2>Hello,</h2>
+                <h2>I'm <span><span>K</span>asia</span></h2>
+                <p>Junior Front-end Developer</p>
+              </div>
             </div>
           </div>
         </section>

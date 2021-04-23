@@ -1,3 +1,21 @@
+@keyframes left-slide {
+  0% {
+    transform: translateX(10%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes right-slide {
+  0% {
+    transform: translateX(-10%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 section.menu {
   display: flex;
   justify-content: center;
@@ -22,6 +40,7 @@ section.menu {
       width: 100%;
       ul {
         padding-right: 21%;
+        animation: 1s ease-out 0s 1 left-slide;
       }
       ul a,
       a:visited {
@@ -43,12 +62,24 @@ section.menu {
         transition: 0.5s;
       }
       a.navi-logo {
-        font-size: 1.8em;
+        display: flex;
+        font-size: 3em;
         color: $alt2;
-        text-shadow: -3px -3px $alt;
+        text-shadow: -5px -4px $alt;
         padding-left: 16%;
+        text-transform: lowercase;
+        animation: 1s ease-out 0s 1 right-slide;
+        p:last-of-type {
+          transform: rotate(-35deg);
+          padding: 0 0;
+          margin: 0 0;
+          font-size: 2.7rem;
+          text-shadow: -4px -5px $alt;
+          padding: 3px;
+        }
       }
       a.navi-logo:hover {
+        cursor: pointer;
         text-shadow: -5px -5px $alt;
         transition: 0.45s;
       }

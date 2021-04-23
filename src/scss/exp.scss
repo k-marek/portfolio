@@ -2,7 +2,7 @@ section.exp {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 600px;
   width: 100vw;
   position: relative;
   background-color: $background;
@@ -19,6 +19,7 @@ section.exp {
       font-weight: 300;
       color: $alt2;
       text-shadow: -9px -6px $alt;
+      padding-top: 53%;
     }
     div.exp-boxes {
       display: flex;
@@ -27,13 +28,14 @@ section.exp {
       align-items: center;
       height: 100%;
       width: 50vw;
-      overflow-y: scroll;
       margin-top: 30%;
+      margin-left: 10%;
       div.exp-box {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: left;
+        align-items: right;
+        text-align: right;
         height: 100%;
         width: 70%;
       }
@@ -43,6 +45,8 @@ section.exp {
         font-weight: 300;
         color: $text;
         text-shadow: none;
+        position: relative;
+        padding: 0 0;
       }
       h2 {
         font-family: $font-base;
@@ -52,7 +56,6 @@ section.exp {
         text-shadow: -6px -4px $alt;
       }
       p {
-        text-align: left;
         font-size: 2em;
         padding: 15px 0;
         color: $text;

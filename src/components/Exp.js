@@ -23,29 +23,33 @@ const Exp = () => {
       <Router>
         <section className="exp">
           <div className="exp-container">
-            <h1>Experience</h1>
             <div className="exp-boxes">
               <div className="exp-box">
                 <h1>Coders Lab</h1>
                 <h2>Jan 2020 - Sep 2020</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a orci tincidunt, tincidunt lectus vitae, facilisis urna. Suspendisse ultricies eu lacus aliquam placerat. Donec pharetra ultricies lacus, condimentum tempus orci imperdiet at.</p>
+                <p>JavaScript Front-end Developer.</p>
+                <p>HTML5, CSS, Javascript, RWD, ES6, Sass, Gulp, Github, Webpack, React JS.</p>
               </div>
               <div className="exp-box">
                 <h1>Domiko</h1>
                 <h2>Jan 2019 - Dec 2020</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a orci tincidunt, tincidunt lectus vitae, facilisis urna. Suspendisse ultricies eu lacus aliquam placerat. Donec pharetra ultricies lacus, condimentum tempus orci imperdiet at.</p>
+                <p>Constructions Designer</p>
+                <p>bla bla bla bla bla</p>
               </div>
               <div className="exp-box">
                 <h1>UPV</h1>
                 <h2>Sep 2017 - Jan 2018</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a orci tincidunt, tincidunt lectus vitae, facilisis urna. Suspendisse ultricies eu lacus aliquam placerat. Donec pharetra ultricies lacus, condimentum tempus orci imperdiet at.</p>
+                <p>Erasmus+ Student Exchange Program</p>
+                <p>bla bla bla</p>
               </div>
               <div className="exp-box">
                 <h1>SUT</h1>
                 <h2>Oct 2012 - May 2018</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a orci tincidunt, tincidunt lectus vitae, facilisis urna. Suspendisse ultricies eu lacus aliquam placerat. Donec pharetra ultricies lacus, condimentum tempus orci imperdiet at.</p>
+                <p>Faculty of Civil Engineering</p>
+                <p>Bla bla</p>
               </div>
             </div>
+            <h1>Experience</h1>
           </div>   
         </section>
       </Router>

@@ -20,50 +20,62 @@ section.banner {
     -webkit-filter: blur(2px);
     z-index: -2;
   }
-  div.pic {
+  div.banner-container {
     display: flex;
-    background-image: url("./../assets/pic9.jpg");
-    height: 600px;
-    width: 600px;
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: contain;
-    border-radius: 50%;
-    position: absolute;
-    top: calc(50vh - 300px);
-    left: 15%;
-    z-index: -1;
-  }
-  div.hello {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
-    height: 100%;
-    width: 70vw;
-    padding-left: 20%;
-    div.hello-container {
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    div.pic {
       display: flex;
-      flex-direction: column;
-      justify-content: center;
-      height: 20vh;
-      width: auto;
-      h2 {
-        font-family: $font-base;
-        font-size: 5em;
-        font-weight: 300;
-        padding: 0;
-        color: black;
-        span {
-          color: $alt2;
-          text-shadow: -9px -6px $alt;
+      background-image: url("./../assets/pic9.jpg");
+      height: 600px;
+      width: 600px;
+      background-repeat: no-repeat;
+      background-position: top;
+      background-size: contain;
+      border-radius: 50%;
+      position: absolute;
+      top: calc(50vh - 300px);
+      left: 15%;
+      z-index: -1;
+    }
+    div.hello {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%;
+      width: 70vw;
+      padding-left: 35%;
+      padding-top: 8%;
+      div.hello-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 20vh;
+        width: auto;
+        h2 {
+          font-family: $font-base;
+          font-size: 5em;
+          font-weight: 300;
+          padding: 0;
+          color: black;
+          animation: 1s ease-out 0s 1 right-slide;
+          span {
+            color: $alt2;
+            text-shadow: -9px -6px $alt;
+          }
         }
-      }
-      p {
-        text-align: left;
-        font-size: 1.6em;
-        text-transform: uppercase;
-        padding: 5px 0;
-        color: $text;
+        h2:last-of-type {
+          animation: 1s ease-out 0s 1 left-slide;
+        }
+        p {
+          text-align: left;
+          font-size: 1.6em;
+          text-transform: uppercase;
+          padding: 5px 0;
+          color: $text;
+        }
       }
     }
   }
