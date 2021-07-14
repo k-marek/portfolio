@@ -2,10 +2,12 @@ section.exp {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 600px;
+  height: auto;
   width: 100vw;
   position: relative;
-  background-color: $background;
+  // background-image: url("./../assets/pexels-lukas-1420701.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
 
   div.exp-container {
     display: flex;
@@ -56,9 +58,19 @@ section.exp {
         text-shadow: -6px -4px $alt;
       }
       p {
-        font-size: 2em;
+        font-size: 1.8em;
         padding: 15px 0;
         color: $text;
+        font-family: $font-alt;
+        color: black;
+      }
+      p:first-of-type {
+        text-transform: uppercase;
+      }
+      p:last-of-type {
+        font-family: $font-alt;
+        font-size: 1.5em;
+        color: black;
       }
     }
   }

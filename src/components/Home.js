@@ -4,6 +4,7 @@ import Navi from "./Navi";
 import Banner from "./Banner";
 import About from "./About";
 import Exp from "./Exp";
+import Footer from "./Footer";
 
 
 
@@ -15,6 +16,7 @@ const Home = () => {
       <Banner />      
       <About />
       <Exp />
+      <Footer />
     </>
   );
 };

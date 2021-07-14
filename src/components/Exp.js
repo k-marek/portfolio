@@ -34,19 +34,18 @@ const Exp = () => {
                 <h1>Domiko</h1>
                 <h2>Jan 2019 - Dec 2020</h2>
                 <p>Constructions Designer</p>
-                <p>bla bla bla bla bla</p>
+                <p>Preparation of drawing packages, report figures, design concepts and sketches.
+Using CAD software and technologies to carry out civil engineering designs and prepare drawings. Performing design changes and revisions to drawings. Analyzing design issues and determine appropriate solutions. Cooperating with team members and other disciplines.</p>
               </div>
               <div className="exp-box">
                 <h1>UPV</h1>
                 <h2>Sep 2017 - Jan 2018</h2>
-                <p>Erasmus+ Student Exchange Program</p>
-                <p>bla bla bla</p>
+                <p>Erasmus+ Student Exchange</p>
               </div>
               <div className="exp-box">
                 <h1>SUT</h1>
                 <h2>Oct 2012 - May 2018</h2>
                 <p>Faculty of Civil Engineering</p>
-                <p>Bla bla</p>
               </div>
             </div>
             <h1>Experience</h1>

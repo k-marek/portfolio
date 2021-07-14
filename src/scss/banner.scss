@@ -2,22 +2,22 @@ section.banner {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  height: 100vh;
+  height: auto;
   width: 100vw;
   position: relative;
   div.banner-background {
-    height: 100vh;
+    height: 250vh;
     width: 100vw;
-    background-image: url("./../assets/AdobeStock_341153744.jpeg");
+    background-image: url("./../assets/pexels-robin-schreiner-2261166.jpg");
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: top;
     background-size: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    opacity: 0.8;
-    filter: blur(2px);
-    -webkit-filter: blur(2px);
+    // opacity: 0.8;
+    // filter: blur(2px);
+    // -webkit-filter: blur(2px);
     z-index: -2;
   }
   div.banner-container {
@@ -27,7 +27,7 @@ section.banner {
     width: 100vw;
     height: 100vh;
     div.pic {
-      display: flex;
+      display: none;
       background-image: url("./../assets/pic9.jpg");
       height: 600px;
       width: 600px;
@@ -70,6 +70,8 @@ section.banner {
           animation: 1s ease-out 0s 1 left-slide;
         }
         p {
+          font-family: $font-alt;
+          font-weight: 300;
           text-align: left;
           font-size: 1.6em;
           text-transform: uppercase;

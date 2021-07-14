@@ -36,7 +36,7 @@ const Banner = () => {
         <section className="banner">    
           <div className="banner-background"
           style={{ 
-            transform: `translateY(${offsetY*0.5}px)`
+            transform: `translateY(${offsetY*0.4}px)`
             }}></div>  
           <div className="banner-container">
             <div className="pic"
